@@ -1,0 +1,18 @@
+.App{
+  margin: 0; 
+}
+.first_box{
+  display: grid;
+  grid-template-rows: 1fr ;
+  /* grid-template-columns: 1fr 1fr 1fr; */
+}
+.second_box{
+  margin-top: 5%;
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr ;
+}
+button{
+  font-size: 30px;
+  
+}
