@@ -4,10 +4,9 @@ function Social() {
   return (<>
     <div className='social_bar'>
         <div className='second_layer'>
-            <p>1</p>
-            <p>1</p>
-            <p>2</p>
-            <p>2</p>
+            <i class="icons fab fa-linkedin fa-3x"></i>
+            <i class="icons fab fa-facebook fa-3x"></i>
+            <i class="icons fab fa-instagram fa-3x"></i>    
         </div> 
     </div>
   </>);

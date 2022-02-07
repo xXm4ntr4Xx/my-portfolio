@@ -2,12 +2,15 @@
     margin: 0;
 }
 .social_bar{
-    background-color: rgb(23, 23, 23);
+    background-color: #171717;
     display: grid;
     grid-template-columns: 1fr;
 }
 .second_layer{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap: 10%;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30%;
+}
+.icons{
+text-align: center;
 }
