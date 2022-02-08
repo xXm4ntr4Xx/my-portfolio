@@ -1,5 +1,6 @@
 .App{
   margin: 0; 
+  background-color: black;
 }
 .first_box{
   display: grid;
