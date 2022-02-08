@@ -11,7 +11,6 @@ function Header() {
       <p className='text animate__animated animate__fadeIn'>Discovering a new passion for Tech and everything around it</p>
           
   </div>
-  
   )
 }
 

@@ -12,10 +12,8 @@ function Project() {
       <Link to="/about"><i className="fas fa-user-tie fa-3x about">About Me</i> </Link>
     </div>
     
-    
     <h1>My Projects</h1>
-
-    
+ 
     <div>
       <Social />
     </div>

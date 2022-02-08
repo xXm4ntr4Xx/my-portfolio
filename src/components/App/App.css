@@ -4,8 +4,7 @@
 }
 .first_box{
   display: grid;
-  grid-template-rows: 1fr ;
-  
+  grid-template-rows: 1fr ; 
 }
 .second_box{
   margin-top: 5%;
@@ -14,12 +13,8 @@
   grid-template-columns: 1fr ;
 }
 button{
-  font-size: 30px;
-  
+  font-size: 30px;  
 }
-
-
-
 .about{ 
   background-color: azure;
   color: black; 
