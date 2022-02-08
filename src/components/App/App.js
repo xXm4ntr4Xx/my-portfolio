@@ -15,9 +15,6 @@ function App() {
   return (
     
     <div className="App">
-      
-      {/* <Link to="/about"><i class="fas fa-user-tie fa-3x about">About Me</i> </Link>
-        <Link to="/project"><i class="fas fa-briefcase fa-3x project">Project</i></Link> */}
 
         <Router>
         <Switch>

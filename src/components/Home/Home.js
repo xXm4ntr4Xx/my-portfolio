@@ -1,10 +1,9 @@
 import React from 'react';
 import '../App/App.css';
-import Social from '../Social/Social.js'
+import Social from '../Social/Social.js';
 import Header from '../Header/Header.js';
 import Skills from '../Skills/Skills.js';
-import About from '../About/About.js';
-import Project from '../Project/Project.js'
+
 import {
   BrowserRouter as Router,
   Switch,
@@ -26,13 +25,7 @@ function Home() {
         <Skills />
         </div>
 
-        <div className='third_box'>
-        
-        </div>
-        
-    
     <div>
-
        <Social />
     </div>
   

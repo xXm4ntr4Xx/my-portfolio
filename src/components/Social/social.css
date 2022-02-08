@@ -2,7 +2,7 @@
     margin: 0;
 }
 .social_bar{
-    background-color: #171717;
+    background-color: #000000;
     display: grid;
     grid-template-columns: 1fr;
 }
