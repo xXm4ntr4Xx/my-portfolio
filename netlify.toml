@@ -1,4 +1,9 @@
-[[redirects]]
+
+
+  [[redirects]]
   from = "/*"
   to = "/"
   status = 200
+  force = false
+  query = {path = ":path"}
+  conditions = {Language = ["en"], Country = ["UK"], Role = ["admin"]}
