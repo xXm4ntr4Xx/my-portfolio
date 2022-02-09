@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from "react-router-dom";
-import Social from '../Social/Social.js';
+
 import './about.css';
 import 'animate.css';
 
