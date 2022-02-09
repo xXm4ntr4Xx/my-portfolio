@@ -1,8 +1,8 @@
 import React from 'react';
 import '../App/App.css';
-import Social from '../Social/Social.js';
-import Header from '../Header/Header.js';
-import Skills from '../Skills/Skills.js';
+import Social from '../Social/index.js';
+import Header from '../Header/index.js';
+import Skills from '../Skills/index.js';
 
 
 

@@ -1,12 +1,12 @@
-import './App.css';
+import './app.css';
 import {
   BrowserRouter as Router,
   Route,
 } from "react-router-dom";
 
-import Home from '../Home/Home.js';
-import About from '../About/About.js';
-import Project from '../Project/Project.js';
+import Home from '../Home/index.js';
+import About from '../About/index.js';
+import Project from '../Project/index.js';
 
   
 
