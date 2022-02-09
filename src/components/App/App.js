@@ -7,6 +7,7 @@ import {
 import Home from '../Home/Home.js';
 import About from '../About/About.js';
 import Project from '../Project/Project.js';
+import NoPage from '../NoPage/NoPage';
   
 
 
@@ -17,12 +18,13 @@ function App() {
 
           <Route  exact path="/" component={Home} />
           
-          
           <Route   path="/about" component={About} />
           
-          
           <Route   path="/project" component={Project} />
+
+          <Route    component={Home} />
           
+
     </div> 
     </Router> 
   );
