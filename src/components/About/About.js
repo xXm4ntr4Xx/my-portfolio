@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from "react-router-dom";
 
 import './about.css';
 import 'animate.css';
@@ -7,8 +6,8 @@ import 'animate.css';
 function About() {
   return (
   <div className='about_container'>
-    <Link to="/"><i class="fas fa-user-tie fa-3x about">Home</i> </Link>
-    <Link to="https://angry-khorana-81659d.netlify.app//project"><i class="fas fa-briefcase fa-3x project">Project</i></Link>
+    <a href="/"><i class="fas fa-user-tie fa-3x about">Home</i> </a>
+    <a href="/project"><i class="fas fa-briefcase fa-3x project">Project</i></a>
 
     <h1 className='animate__animated animate__headShake'>What about me......</h1>
 

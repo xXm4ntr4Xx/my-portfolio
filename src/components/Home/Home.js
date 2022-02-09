@@ -5,13 +5,13 @@ import Header from '../Header/Header';
 import Skills from '../Skills/Skills';
 
 
-import { Link } from "react-router-dom";
+
 
 function Home() {
   return (<div>
-  
-     <Link to="/project"><i class="fas fa-briefcase fa-3x project">Project</i></Link>
-     <Link to="/about"><i class="fas fa-user-tie fa-3x about">About Me</i> </Link>
+      <a href="/project"><i class="fas fa-briefcase fa-3x project">Project</i></a>
+      <a href="/about"><i class="fas fa-user-tie fa-3x about">About Me</i> </a>
+     
        
       <Header />
         
@@ -21,7 +21,7 @@ function Home() {
 
     
       <div>
-        {/* <Social /> */}
+        <Social />
       </div>
        
   </div>)
