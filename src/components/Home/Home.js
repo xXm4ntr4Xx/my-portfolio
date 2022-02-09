@@ -1,6 +1,6 @@
 import React from 'react';
 import '../App/App.css';
-// import Social from '../Social/Social';
+import Social from '../Social/Social';
 import Header from '../Header/Header';
 import Skills from '../Skills/Skills';
 
