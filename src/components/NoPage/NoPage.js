@@ -2,7 +2,10 @@ import React from 'react'
 
 function NoPage() {
   return (
-    <div>Page doesnt exist</div>
+    <div className='no-page'>
+      <h1>Page not found</h1>
+      <p>Can you type a valid path, plis?</p>
+      </div>
   )
 }
 

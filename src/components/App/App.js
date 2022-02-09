@@ -22,7 +22,7 @@ function App() {
           
           <Route   path="/project" component={Project} />
 
-          <Route    component={Home} />
+          <Route    component={NoPage} />
           
 
     </div> 
