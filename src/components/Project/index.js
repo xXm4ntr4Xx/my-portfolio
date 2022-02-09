@@ -1,6 +1,6 @@
 import React from 'react';
 import './project.css'
-import Social from '../Social/index.js';
+import Social from '../Social';
 
 
 function Project() {
