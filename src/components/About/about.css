@@ -6,6 +6,8 @@
 .about_container{
   background-color: black;
   
+  
+  
 }
 h1{
   font-size: 50px;
@@ -38,3 +40,13 @@ p{
   font-family: 'IBM Plex Sans Thai Looped', sans-serif;
   font-family: 'Loved by the King', cursive;
 }
+
+  
+  
+  .footer{
+    margin-top: 200px;
+  
+    
+    
+  }
+  

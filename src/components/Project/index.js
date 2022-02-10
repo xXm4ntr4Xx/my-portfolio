@@ -1,6 +1,5 @@
 import React from 'react';
 import './project.css'
-import Social from '../Social';
 
 
 function Project() {
@@ -13,9 +12,7 @@ function Project() {
     
     <h1>My Projects</h1>
  
-    <div>
-      <Social />
-    </div>
+    
   </div>);
 }
 export default Project;

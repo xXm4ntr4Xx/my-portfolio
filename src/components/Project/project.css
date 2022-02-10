@@ -10,3 +10,9 @@ h1{
     grid-template-rows: 1fr 19fr 1fr;
 
 }
+.footer {
+    clear: both;
+    position: relative;
+    height: 200px;
+    margin-top: -200px;
+}
