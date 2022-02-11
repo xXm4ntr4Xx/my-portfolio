@@ -9,10 +9,7 @@
   
   
 }
-h1{
-  font-size: 50px;
-  text-align: center;
-}
+
 p{
   font-size: 40px;
   color: bisque;
@@ -36,16 +33,14 @@ p{
   font-size: 50px;
   font-weight: bolder;
   text-align: center;
-  font-family: 'Comforter', cursive;
+  /* font-family: 'Comforter', cursive; */
   font-family: 'IBM Plex Sans Thai Looped', sans-serif;
-  font-family: 'Loved by the King', cursive;
+  /* font-family: 'Loved by the King', cursive; */
 }
 
-/* .title{
+.title{
   background-color: #000000;
-} */
+}
   
-  .footer{
-    margin-top: 200px;
-  }
+  
   

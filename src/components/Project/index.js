@@ -48,12 +48,7 @@ function Project() {
   
 </table>
       </div>
-    </div>
-    
-    
-    
-  
-    
+    </div> 
   </div>);
 }
 export default Project;
