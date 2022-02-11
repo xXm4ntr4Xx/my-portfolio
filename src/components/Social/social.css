@@ -8,6 +8,7 @@
     display: grid;
     grid-template-columns: 1fr ;
     gap: 10%;
+    background-color: rgb(209, 209, 27);
 }
 i{
     text-align: center;
@@ -15,4 +16,7 @@ i{
 .icons{
     margin-left: 50%;
     color: #000000;
+}
+.social-link{
+    
 }

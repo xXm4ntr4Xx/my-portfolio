@@ -23,14 +23,14 @@ p{
   -moz-osx-font-smoothing: grayscale;
 }
 
-.html,.css,.js{
+.topic{
   color: brown;
   font-style: oblique;
 }
 .text{
   color: bisque;
   background-color: #000000;
-  font-size: 50px;
+  font-size: 30px;
   font-weight: bolder;
   text-align: center;
   /* font-family: 'Comforter', cursive; */
