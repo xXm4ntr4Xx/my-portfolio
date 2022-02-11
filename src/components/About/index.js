@@ -10,7 +10,7 @@ function About() {
     <a href="/"><i class="fas fa-user-tie fa-3x about">Home</i> </a>
     <a href="/project"><i class="fas fa-briefcase fa-3x project">Project</i></a>
 
-    <h1 className='animate__animated animate__headShake'>What about me......</h1>
+    <h1 className='title animate__animated animate__headShake'>What about me......</h1>
 
     <br />
     <br />

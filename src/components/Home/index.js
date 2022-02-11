@@ -23,7 +23,6 @@ function Home() {
       <div>
         <Social />
       </div>
-       
   </div>)
 }
 

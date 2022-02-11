@@ -1,18 +1,30 @@
 h1{
     color: blanchedalmond;
 }
+h2{
+    color: rgb(243, 243, 243);
+}
 .home{
     color: black;
 }
 .project_body{
-    background-color: black;
+    background-color:#000000;
     display: grid;
     grid-template-rows: 1fr 19fr 1fr;
 
 }
+a{
+    background-color: antiquewhite;
+}
+
 .footer {
-    clear: both;
-    position: relative;
     height: 200px;
     margin-top: -200px;
 }
+
+table, th, td {
+    border:1px solid rgb(88, 87, 87);
+  }
+  .table{
+      background-color: rgb(66, 65, 65);
+  }

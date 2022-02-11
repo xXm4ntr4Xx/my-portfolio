@@ -19,15 +19,13 @@
 }
 
 .text{
-    color: bisque;
+    color: rgb(131, 85, 28);
     background-color: #000000;
     font-size: 50px;
     text-align: center;
-    font-family: 'Comforter', cursive;
     font-family: 'IBM Plex Sans Thai Looped', sans-serif;
-    font-family: 'Loved by the King', cursive;
+    
 }
-
 
 button{
   height: 100%;
