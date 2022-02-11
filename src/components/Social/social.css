@@ -6,9 +6,13 @@
 }
 .second_layer{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 30%;
+    grid-template-columns: 1fr ;
+    gap: 10%;
+}
+i{
+    text-align: center;
 }
 .icons{
-text-align: center;
+    margin-left: 50%;
+    color: #000000;
 }
