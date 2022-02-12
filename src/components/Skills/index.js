@@ -10,16 +10,18 @@ const Skills = () => (
          
     <div className="container">
     
-    <i class="fab fa-html5 fa-5x"><button>Html</button></i>
-    <i class="fab fab fa-css3-alt fa-5x"><button>Css</button></i> 
-    <i class="fab fa-js fa-5x"><button>Js</button></i>
-    <i class="fab fa-react fa-5x"><button>React</button></i>
-    <i class="fab fa-node fa-5x"><button>Node</button></i>
-    <i class="fas fa-database fa-5x"><button>Heroku</button></i>
+    <i class="fab fa-html5 fa-3x"><button>Html</button></i>
+    <i class="fab fab fa-css3-alt fa-3x"><button>Css</button></i> 
+    <i class="fab fa-js fa-3x"><button>Js</button></i>
+    <i class="fab fa-react fa-3x"><button>React</button></i>
+    <i class="fab fa-node fa-3x"><button>Node</button></i>
+    <i class="fas fa-database fa-3x"><button>Heroku</button></i>
+     <div>
      
+     </div>
     </div>
-
-        
+    <i class="fas fa-bug fa-3x"><button>Jest</button></i>
+    <i class="fas fa-code-branch fa-3x"><button>Github</button></i>
     </div>
   </div>
 );
