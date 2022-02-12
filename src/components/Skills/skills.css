@@ -1,7 +1,7 @@
 .main_box{
     
-    display: grid;
-    grid-template-columns: 1fr ;
+    /* display: grid;
+    grid-template-rows: 1fr ; */
 }
 
 .card {
@@ -22,8 +22,7 @@
     margin-top: 1%;
     display: grid;
     grid-template-rows: 1fr 1fr 1fr ;
-    grid-template-columns: 1fr 1fr 1fr ;
-    gap: 50px;
+    gap: 10px;
     align-items: center;
   }
  

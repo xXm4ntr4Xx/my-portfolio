@@ -1,46 +1,3 @@
-h1{
-    color: blanchedalmond;
-    text-align: center;
-}
-h2{
-    color: rgb(243, 243, 243);
-}
-.home{
-    color: black;
-}
-.project_body{
-    background-color:#000000;
-    display: grid; 
-    grid-template-rows: 1fr 10fr 1fr;
-
-
-}
-
-td >.link{
-  background-color:#fffefe;
-  color: rgb(20, 18, 18);
-  text-decoration: none;
-  font-size: 100%;
-}
-tr > th {
-  font-size: 1rem;
-}
-
-.footer {
-    height: 200px;
-    margin-top: -200px;
-}
-
-/* 
-    //Border table element optional
-table, th, td {
-    border:1px solid rgb(132, 132, 132);
-  }
-  table{
-      background-color: rgb(200, 72, 72);
-      margin: 5%;
-      
-  } */
 
 
 .topnav {
@@ -52,12 +9,13 @@ table, th, td {
   
   .topnav a {
     float: left;
-    display: block;
+    /* display: block; */
+    
     color: #000000;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 170px;
     background-color: #000000;
   }
   
@@ -76,7 +34,7 @@ table, th, td {
    
   }
   
-  .home:hover:before {content:"Home"}
+  .project:hover:before {content:"Project"}
   .about:hover:before {content:"About"}
 
   @media screen and (max-width: 700px) {

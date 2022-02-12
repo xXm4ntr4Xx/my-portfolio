@@ -7,7 +7,7 @@ function Header() {
   return (
   <div className='central-box'>
 
-      <h1 className=' my_name animate__fadeInUp animate__animated animate__backInRight'>Pietro Annobil</h1>
+      <h1 className=' my_name animate__fadeInUp animate__animated animate__backInRight'>Hello, I'm Pietro Annobil.<br/> Full stack web developer.</h1>
       
           
   </div>

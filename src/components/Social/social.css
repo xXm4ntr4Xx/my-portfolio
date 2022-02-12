@@ -1,22 +1,27 @@
 
 .social_bar{
-    background-color: #000000;
+    background-color: #030303;
     display: grid;
     grid-template-columns: 1fr;
 }
 .second_layer{
-    display: grid;
-    grid-template-columns: 1fr ;
-    gap: 10%;
-    background-color: rgb(209, 209, 27);
+    margin-top: 2%;
+    display:inline-block;margin-right:10px;
+    display: flex;
+    justify-content: space-between;
+    gap: 3%;
+    background-color: rgb(0, 0, 0);
 }
 i{
     text-align: center;
 }
-.icons{
-    margin-left: 50%;
-    color: #000000;
-}
+
 .social-link{
     
 }
+.icons1, .icons2{
+    color:#030303
+}
+
+.icons1:hover:before {content:"LinkedIn"}
+  .icons2:hover:before {content:"GitHub"}

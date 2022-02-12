@@ -15,7 +15,7 @@ const Skills = () => (
     <i class="fab fa-js fa-5x"><button>Js</button></i>
     <i class="fab fa-react fa-5x"><button>React</button></i>
     <i class="fab fa-node fa-5x"><button>Node</button></i>
-    <i class="fas fa-database fa-5x"><button>Database</button></i>
+    <i class="fas fa-database fa-5x"><button>Heroku</button></i>
      
     </div>
 
