@@ -85,7 +85,7 @@ table, th, td {
       float: right;
       display: block;
     }
-    .project:hover:before {content:"Reply!"}
+    .project:hover:before {content:"Projects"}
   }
   
   @media screen and (max-width: 700px) {
