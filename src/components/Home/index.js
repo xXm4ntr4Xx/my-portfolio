@@ -4,7 +4,7 @@ import './home.css';
 import Social from '../Social';
 import Header from '../Header';
 import Skills from '../Skills';
-
+import {Link} from 'react-router-dom';
 
 
 
@@ -15,8 +15,8 @@ function Home() {
   return (<div>
     
      <div className="topnav">
-      <a href="/project"><i class="fas active  fa-briefcase fa-3x project"/></a>
-      <a href="/about"><i class="fas active fa-user-tie fa-3x about"/> </a> 
+      <Link to="/project">Project</Link>
+      <Link to="/about">About </Link> 
     </div>
     
       <Header />
