@@ -7,9 +7,9 @@ function Menu() {
         <nav id='menu'>
         <input type='checkbox' id='responsive-menu' onclick='updatemenu()'/><label></label>
             <ul>
-                <li><Link to='/' >Home</Link></li>
-                <li><Link to='/project' >Project</Link></li>
-                <li><Link to='/about' >About</Link></li>
+              <li><Link to='/about' >About</Link></li>
+              <li><Link to='/project' >Project</Link></li>
+              <li><Link to='/' >Home</Link></li>  
              </ul>
         </nav>
     </div>
