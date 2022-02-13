@@ -1,5 +1,5 @@
 .about-body{
-    background-image: url("https://images.pexels.com/photos/3784143/pexels-photo-3784143.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+    background-image: url("https://images.pexels.com/photos/1291515/pexels-photo-1291515.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
 background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
@@ -8,5 +8,5 @@ position: absolute;
   left: 0;
   height: 100%;
   width: 100%;
-  opacity: 0.6;
+  
 }
