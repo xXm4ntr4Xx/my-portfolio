@@ -7,6 +7,7 @@ function Home() {
   return (
     <body id='home'>
     <div className='home-body'>
+          <h1>home</h1>
         <div class="navigation">
       <input type="checkbox" class="navigation__checkbox" id="nav-toggle"/>
       <label for="nav-toggle" class="navigation__button">
@@ -26,7 +27,7 @@ function Home() {
           </li>   
     </ul>
   </nav>
- <h1>home</h1>
+ 
  <div>
    
  </div>

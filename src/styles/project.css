@@ -128,7 +128,7 @@ body {
           }
           
           .navigation__list {
-              
+              /*@include center;*/
               position: absolute;
               top: 50%;
               left: 50%;
@@ -248,7 +248,8 @@ body {
           }
           
           
-        
+          
+          /*-----------------------*/
           #by {
             font-family: 'Arima Madurai', cursive;
             color: #4A676A;

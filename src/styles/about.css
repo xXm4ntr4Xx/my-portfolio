@@ -1,9 +1,10 @@
-/* 
- h1{
-    color: #f4f4f4;
-    opacity:0.5;
-    font-size: 2rem;
-    
+body{
+    /* background-image: url('https://images.pexels.com/photos/7598668/pexels-photo-7598668.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'); */
+    -webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover; 
+background-color: red;
 }
     .navbar{
     padding: 15px;
@@ -44,7 +45,7 @@
 
 
 
-       
+        /* \\\\\\\\\\ */
         * {
             box-sizing: border-box;
             margin: 0;
@@ -57,7 +58,7 @@
           }
           
           body {
-            background-color: transparent;
+            background-color: #C1D0D0;
             font-family: Roboto, Arial, sans-serif;
             display: flex;
             align-items: center;
@@ -75,7 +76,7 @@
               height: 5rem;
               width: 5rem;
               text-align: center;
-              background-color: rgb(255, 253, 253);
+              background-color: #fff;
               border-radius: 50%;
               z-index: 300;
               box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.2);
@@ -98,7 +99,7 @@
               height: 3rem;
               width: 3rem;
               border-radius: 50%;
-              background: #000000;
+              background: #4A676A;
               background-size: cover;
               background-position: center;
               z-index: 100;
@@ -115,7 +116,6 @@
           }
           
           .navigation__nav {
-              
               position: fixed;
               top: 0;
               left: 0;
@@ -125,25 +125,17 @@
               visibility: hidden;
               z-index: 200;
               transition: all 800ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
-              
-              background: url('https://images.pexels.com/photos/6044820/pexels-photo-6044820.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2') no-repeat center center fixed;   
-            -webkit-background-size: cover;
-            -moz-background-size: cover;
-            -o-background-size: cover;
-             background-size: cover; 
           }
           
           .navigation__list {
-              
+              /*@include center;*/
               position: absolute;
               top: 50%;
               left: 50%;
               transform: translate(-50%, -50%);
               text-align: center;
-              font-size: 50px;
               width: 100%;
               list-style: none;
-              
           }
           
           .navigation__item {
@@ -174,7 +166,7 @@
           }
           
           .navigation__link:hover {
-              color: #74caca;
+              color: #C1D0D0;
               transform: scale(1.1);
           }
           
@@ -189,7 +181,7 @@
           }
           
           .navigation__icon {
-                
+          
               position: relative;
               margin-top: 2.5rem;
           }
@@ -206,7 +198,7 @@
               display: inline-block;
               width: 2.2rem;
               height: 2px;
-              background-color: #000000;
+              background-color: #4A676A;
           }
           
           @media (min-width: 768px) {
@@ -257,17 +249,12 @@
           
           
           
-          
+          /*-----------------------*/
           #by {
             font-family: 'Arima Madurai', cursive;
-            color: #343434;
+            color: #4A676A;
             font-size: 10px;
             position: absolute;
             top: 22%;
             right: 2.5%; 
           }
-
-
-
-
-            */
