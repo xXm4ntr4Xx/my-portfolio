@@ -5,6 +5,7 @@ import Menu from '../components/Menu/menu';
 
 
 
+
 function Project() {
   
   return ( 
@@ -18,7 +19,7 @@ function Project() {
         <div className='video-description'>
           
           <video width="500" height="300"  controls>
-          <source src="https://vimeo.com/676914977" type="video/mov"/>
+          <source src='image/ezgif.com-gif-maker.gif' type="video/mov"/>
           </video>
           <div>
           <h2>Description<br/><p>First Project of School of Code where i create a City Info using e weather API.
@@ -40,9 +41,9 @@ function Project() {
 
         <div className='video-description'>
           
-          <video width="500" height="300"  controls>
-          <source src="https://vimeo.com/676914977" type="video/mov"/>
-          </video>
+          
+          <img src="ezgif.com-gif-maker.gif" alt="This will display an animated GIF" />
+          
           <div>
           <h2>Description<br/><p>First Project of School of Code where i create a City Info using e weather API.
             <br/> The app has been created using Vanilla Javascript,Html and Css. The Most challenge <br/>part of this
