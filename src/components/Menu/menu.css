@@ -91,7 +91,7 @@
 	#menu ul {position:absolute;top:100%;right:0;left:0;z-index:3;height:auto;display:none}
 	#menu ul.sub-menus {width:100%;position:static;}
 	#menu ul.sub-menus a {padding-left:10px;}
-	#menu li {display:block;float: left;width:auto;}
+	#menu li {display:block;float: left;width:auto; }
 	#menu input, #menu label {position:absolute;top:0;left:0;display:block}
 	#menu input {z-index:4}
 	#menu input:checked + label {color:rgb(251, 251, 251)}

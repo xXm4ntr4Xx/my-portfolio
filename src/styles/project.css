@@ -6,24 +6,21 @@
     position: absolute;
       top: 0;
       left: 0;
-      height: auto;
+      height: 101%;
       width: 100%;   
 }
 
 
-
+.header-project{
+  color: aliceblue;
+}
 
 .table{
   text-align: left;
   padding: 1%;
 }
-video{
-  opacity: 0.9;
-}
-h1{
-  color: rgb(236, 187, 135);
-  
-}
+
+
 
 
 .video-description{
@@ -44,10 +41,6 @@ p{
   color: aliceblue;
 }
 
-.weatherAPI{
-  border-radius: 100%;
-  opacity: 0.6;
-}
 
 @media only screen and (max-width: 1000px) {
 
