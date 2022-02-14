@@ -1,11 +1,14 @@
 import React from 'react';
 import './menu.css';
 import {Link} from 'react-router-dom';
+
+
+
 function Menu() {
   return (
     <div>
         <nav id='menu'>
-        <input type='checkbox' id='responsive-menu' onclick='updatemenu()'/><label></label>
+        <input type='checkbox' id='responsive-menu' /><label></label>
             <ul>
               <li><Link to='/about' >About</Link></li>
               <li><Link to='/project' >Project</Link></li>
