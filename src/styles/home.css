@@ -1,5 +1,5 @@
 .home-body{
-    background-image: url("https://static.wixstatic.com/media/adfeb7_49932c42ca494864994577ca08ee0ba0~mv2.gif");
+    background-image: url("https://t4.ftcdn.net/jpg/02/00/68/69/360_F_200686968_KS9NVTJgvjMQs2FniVHyIJaAIcg5p7D0.jpg");
 background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
@@ -20,7 +20,7 @@ position: absolute;
 
 @media only screen and (max-width: 900px){
 	h1{
-    font-size: 200%;
+    font-size: auto;
     text-align: center;
   }
   
@@ -28,7 +28,7 @@ position: absolute;
 
 @media only screen and (max-width: 600px){
 	h1{
-    font-size: 150%;
+    font-size: auto;
   }
   
 }
