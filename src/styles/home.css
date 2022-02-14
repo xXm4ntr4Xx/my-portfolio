@@ -1,5 +1,5 @@
 .home-body{
-    background-image: url("https://images.pexels.com/photos/1158394/pexels-photo-1158394.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+    background-image: url("https://static.wixstatic.com/media/adfeb7_49932c42ca494864994577ca08ee0ba0~mv2.gif");
 background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
@@ -10,9 +10,9 @@ position: absolute;
   width: 100%;
   
 }
-h1{
-  color: aliceblue;
-  font-size: 500%;
+.header1{
+  color: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSx97pqHLOYMuK1SzBFhWuWrQbWNQDDSJNRcA&usqp=CAU');
+  font-size: 400%;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 

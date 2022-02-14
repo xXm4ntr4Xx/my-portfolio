@@ -1,12 +1,12 @@
 .project-body{
-    background-image: url("https://images.pexels.com/photos/952670/pexels-photo-952670.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+    background-image: url("https://d2r55xnwy6nx47.cloudfront.net/uploads/2019/12/SingularityProof_Lede1300.gif");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: absolute;
       top: 0;
       left: 0;
-      height: 100%;
+      height: auto;
       width: 100%;
     
 }
@@ -52,9 +52,36 @@
 } */
 
 .table{
-  text-align: center;
+  text-align: left;
   padding: 1%;
 }
 video{
   opacity: 0.9;
+}
+h1{
+  color: rgb(236, 187, 135);
+  
+}
+/* .video{
+  display:inline-block;margin-right:10px;
+}
+h2{
+  display:inline-block;
+} */
+.video-description{
+  display: flex;
+  margin: 0.5%;
+}
+h2{
+  color: rgb(233, 245, 255);
+  font-size: 500%;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+bold{
+  color: aliceblue;
+  font-weight: bold;
+  font-size: larger;
+}
+p{
+  color: aliceblue;
 }

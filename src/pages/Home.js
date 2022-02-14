@@ -8,7 +8,7 @@ function Home() {
   return (   
     <div className='home-body'>
       <Menu />
-         <h1>Hi. Im Pietro. <br/> Software developer <br/>based in london</h1>
+         <h1 className='header1'>Hi. Im Pietro. <br/> Software developer <br/>based in london</h1>
     </div>
   )
 }
