@@ -50,6 +50,10 @@ p{
 }
 
 @media only screen and (max-width: 1000px) {
+
+  h1{
+    margin:20%
+  }
   .project-body{
     display: flex;
     flex-direction: row;
@@ -61,4 +65,9 @@ p{
     padding: 0;
     margin: 0;
   }
+
+text-div{
+ margin: 5%;
+}
+
 }

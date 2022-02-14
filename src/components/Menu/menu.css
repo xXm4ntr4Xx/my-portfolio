@@ -36,7 +36,7 @@
 	margin-left: 5px;
 }
 #menu li a:hover {
-	color: #000f93;
+	color: #b2b2b2;
 	background: transparent;
 }
 #menu input {
@@ -84,8 +84,10 @@
 	background: #f7f1f1;
 	color: #444444;
 }
+
+
 @media screen and (max-width: 800px){
-	#menu {position:relative; width: 100%;opacity: 1;}
+	#menu {position:relative; width: 100%;}
 	#menu ul {position:absolute;top:100%;right:0;left:0;z-index:3;height:auto;display:none}
 	#menu ul.sub-menus {width:100%;position:static;}
 	#menu ul.sub-menus a {padding-left:10px;}
