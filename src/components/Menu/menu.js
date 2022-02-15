@@ -10,7 +10,7 @@ function Menu() {
         <nav id='menu'>
         <input type='checkbox' id='responsive-menu' /><label></label>
             <ul>
-              <li><Link to='/about' >About</Link></li>
+              <li><Link to='/contact' >Contact</Link></li>
               <li><Link to='/project' >Project</Link></li>
               <li><Link to='/' >Home</Link></li>  
              </ul>
