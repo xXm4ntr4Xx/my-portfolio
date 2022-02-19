@@ -20,7 +20,6 @@ function Project() {
         <a  href='https://weather-application001.herokuapp.com/ '>
           <img className='weatherAPI' src='https://videoapi-muybridge.vimeocdn.com/animated-thumbnails/image/b7cd41d4-884d-451f-b256-0335af874c47.gif?ClientID=vimeo-core-prod&Date=1644864340&Signature=e2e9c7e9f40cdf5d7f13c5ac3996a13d070426ba'/>
         </a>
-        
           <div className='text-div'>
           <h2>Description<br/><p>First Project of School of Code where i create a City Info using e weather API.
             <br/> The app has been created using Vanilla Javascript,Html and Css. The Most challenge <br/>part of this
@@ -29,30 +28,48 @@ function Project() {
             <p><bold>Tools : </bold>Html,Css,Vanilla Javascript, FetchAPI</p>
             <a  style={{color:'white'}}href='https://weather-application001.herokuapp.com/ '>Weather Api Link</a>
           </div> 
-          <br/>
-            
+          <br/>   
         </div>
 
+    <hr/>
+    <hr/>
+    <hr/>
 
+    <h1 className='header-project animate__animated animate__backInLeft' styles={{color:'white'}}>Dictionary API</h1>
         <div className='video-description'>
-        
-        
           <div className='text-div'>
-          <h2>Description<br/><p>First Project of School of Code where i create a City Info using e weather API.
-            <br/> The app has been created using Vanilla Javascript,Html and Css. The Most challenge <br/>part of this
-             project has been retreive the info from  the API and assign the different data <br/>to a variable and place the info on the page.
-             <br/>Was the first time i use  Css in a complete project for create a table and add weather icon on the page.</p></h2>
+          <h2>Description<br/><p>For this beginner app i use a Dictionary API
+            <br/> The app has been created using Vanilla Javascript,Html and Css.<br/>
+            Part of the weekly exercise we had at school of code</p> </h2>
             <p><bold>Tools : </bold>Html,Css,Vanilla Javascript, FetchAPI</p>
-            <a  style={{color:'white'}}href='https://weather-application001.herokuapp.com/ '>Weather Api Link</a>
+            <a  style={{color:'white'}}href='https://little-dictionary.netlify.app'>Dictionary Api Link</a>
           </div> 
-          <a  href='https://weather-application001.herokuapp.com/ '>
-          <img className='weatherAPI' src='https://videoapi-muybridge.vimeocdn.com/animated-thumbnails/image/b7cd41d4-884d-451f-b256-0335af874c47.gif?ClientID=vimeo-core-prod&Date=1644864340&Signature=e2e9c7e9f40cdf5d7f13c5ac3996a13d070426ba'/>
+          <a  href='https://little-dictionary.netlify.app'>
+          <img className='dictionaryAPI' src='https://videoapi-muybridge.vimeocdn.com/animated-thumbnails/image/ac07f7f9-fd5f-49da-b9cf-2ccb20128658.gif?ClientID=vimeo-core-prod&Date=1645225890&Signature=db8e00fed25897b6e055798bfbd79757dc8561a5'/>
         </a>
           <br/>
-            
         </div>
 
-          
+        <hr/>
+        <hr/>
+        <hr/>
+
+
+        <h1 className='header-project animate__animated animate__backInLeft' styles={{color:'white'}}>Search Movie/Anime/TV </h1>
+        <div className='video-description'>
+        <a  href='https://searchapp.gatsbyjs.io/'>
+          <img className='weatherAPI' src='https://videoapi-muybridge.vimeocdn.com/animated-thumbnails/image/f70626d1-7352-4e38-b7bc-a2f3d6cbb3b7.gif?ClientID=vimeo-core-prod&Date=1645228122&Signature=f02e9ec3377b958f0ffefa93a69dfbbd6cb16d73'/>
+        </a>
+          <div className='text-div'>
+          <h2>Description<br/><p>The aim of this exercise was to get familiar with a new framework.
+            <br/> For this task the bootcampers have to work on a new <br/>framework
+             and Gatsby was the one i got assigned <br/>The key point of the learning that day were
+             <br/>the direct link to the page  and the Gatsby deployment(happen on the Cloud)</p></h2>
+            <p><bold>Tools : </bold>Html,Css,Vanilla Javascript, FetchAPI, Gatsby Cloud</p>
+            <a  style={{color:'white'}}href='https://searchapp.gatsbyjs.io/'>Search Movie/Anime/TV Api Link</a>
+          </div> 
+          <br/>   
+        </div>
 
        </div>
     </div>  
