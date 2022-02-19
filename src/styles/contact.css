@@ -12,12 +12,7 @@ position: absolute;
 }
 
 
-p{
-  background-image: url('https://i.gifer.com/At1j.gif');
-  -webkit-background-clip: text;
-   -webkit-text-fill-color: transparent;
-   
-}
+
 .header-contact{
   text-align: center;
   color: aliceblue;

@@ -9,11 +9,7 @@
       height: auto;
       width: 100%;   
 }
-h1{
-  background-image: url('https://cdn140.picsart.com/328061697035201.gif?to=crop&r=256');
-  -webkit-background-clip: text;
-   -webkit-text-fill-color: transparent;
-}
+
 img{
   border-radius: 150%;
 }

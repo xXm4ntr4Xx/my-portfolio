@@ -10,7 +10,7 @@ function Home() {
       <Menu />
          <h1 className='header1'> Pietro Annobil </h1><br/>
           <p className='par-home'>Im a software developer based in london that love work with API</p>
-          <p className='par-home'>My favourite tools are Html ,Node.js and React</p>
+          <p className='par-home'>My favourite tools are React and Node.js</p>
       <br/>
 
       <div className='social-link'>

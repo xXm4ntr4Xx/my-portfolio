@@ -1,5 +1,9 @@
+
+
+
+
 .home-body{
-    background-image: url("https://t4.ftcdn.net/jpg/02/00/68/69/360_F_200686968_KS9NVTJgvjMQs2FniVHyIJaAIcg5p7D0.jpg");
+    background-image: url("https://i.pinimg.com/originals/5e/6d/ef/5e6defc11d4261d6536ab177b15e025c.gif");
 background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
@@ -30,11 +34,12 @@ position: absolute;
 }
 .header1{
   
-  background-image: url('https://mir-s3-cdn-cf.behance.net/project_modules/disp/b6d69a19730059.562fc1b737102.gif');
+  background-image: url('https://media2.giphy.com/media/xT5LMGV2XA93OY0jJe/giphy.gif');
   -webkit-background-clip: text;
    -webkit-text-fill-color: transparent;
   font-size: 5rem;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: 'Shizuru', cursive;
+  text-align: center;
 }
 .par-home{
   text-align: center;
@@ -54,7 +59,7 @@ position: absolute;
    -webkit-text-fill-color: transparent;
 }
 
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 1000px){
 	.header1{
     font-size: 20vw;
     text-align: center;
@@ -64,13 +69,9 @@ position: absolute;
   
   .home-body{
     
+    width: 100%;
+    height: auto;
 
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
-position: absolute;
-width: fit-content;
-height: fit-content;
     
   }
 }
