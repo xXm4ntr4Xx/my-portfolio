@@ -10,7 +10,7 @@ import Project from "../../pages/Project";
 
 export default function App() {
   return (
-    <div> 
+    <div className="app"> 
       <BrowserRouter>
         <Routes>
           <Route exact path='/' index element={<Home />} />
