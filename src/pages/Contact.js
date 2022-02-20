@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/contact.css';
+import contactStyles from '../styles/contact.module.css';
 import Menu from '../components/Menu/menu';
 
 
@@ -9,12 +9,12 @@ function About() {
 
 
   return (  
-      <div className='contact-container'>
+      <div className={contactStyles.contact_container}>
         <Menu />
           
-        <p className='header-contact'><span>Email:  </span><a href="mailto:pietroannobil@gmail.com">pietroannobil@gmail.com</a></p>
+        <p className={contactStyles.header_contact}><span>Email:  </span><a href="mailto:pietroannobil@gmail.com">pietroannobil@gmail.com</a></p>
         
-        <div className='social-list'>
+        <div className={contactStyles.social_list}>
             <p><span>Telephone : </span>07501971950</p>
             <p>Linkedin : <a href='https://www.linkedin.com/in/pietro-annobil-025483180/'><i className="fab fa-linkedin"></i></a></p>
             <p>Twitter : <a href='https://twitter.com/AnnobilPietro'><i className="fab fa-twitter"></i></a></p>

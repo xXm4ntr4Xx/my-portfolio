@@ -1,5 +1,5 @@
 import React from 'react'
-import '../styles/project.css';
+import projectStyles from '../styles/project.module.css';
 import Menu from '../components/Menu/menu';
 
 
@@ -8,19 +8,20 @@ import Menu from '../components/Menu/menu';
 
 function Project() {
   
+  
   return ( 
-      <div className='project-body'>
+      <div className={projectStyles.project_body}>
         <Menu />
 
+      {/* 'header_project animate__animated animate__backInLeft' */}
+       <div className={projectStyles.table}>
+        <h1 className={projectStyles.header_project}>City weather API</h1>
 
-       <div className='table'>
-        <h1 className='header-project animate__animated animate__backInLeft' styles={{color:'white'}}>City weather API</h1>
-
-        <div className='video-description'>
+        <div className={projectStyles.video_description}>
         <a  href='https://weather-application001.herokuapp.com/ '>
-          <img className='weatherAPI' src='https://videoapi-muybridge.vimeocdn.com/animated-thumbnails/image/b7cd41d4-884d-451f-b256-0335af874c47.gif?ClientID=vimeo-core-prod&Date=1644864340&Signature=e2e9c7e9f40cdf5d7f13c5ac3996a13d070426ba'alt=''/>
+          <img className={projectStyles.weatherAPI} src='https://videoapi-muybridge.vimeocdn.com/animated-thumbnails/image/b7cd41d4-884d-451f-b256-0335af874c47.gif?ClientID=vimeo-core-prod&Date=1644864340&Signature=e2e9c7e9f40cdf5d7f13c5ac3996a13d070426ba'alt=''/>
         </a>
-          <div className='text-div'>
+          <div className={projectStyles.text_div}>
           <h2>Description<br/><p>First Project of School of Code where i create a City Info using e weather API.
             <br/> The app has been created using Vanilla Javascript,Html and Css. The Most challenge <br/>part of this
              project has been retreive the info from  the API and assign the different data <br/>to a variable and place the info on the page.
@@ -35,18 +36,19 @@ function Project() {
     <hr/>
     <hr/>
 
-    <h1 className='header-project animate__animated animate__backInLeft' styles={{color:'white'}}>Dictionary API</h1>
-        <div className='video-description'>
-          <div className='text-div'>
+    <h1 className={projectStyles.header_project} >Dictionary API</h1>
+        <div className={projectStyles.video_description}>
+        <a  href='https://little-dictionary.netlify.app'>
+          <img className={projectStyles.weatherAPI} src='https://videoapi-muybridge.vimeocdn.com/animated-thumbnails/image/ac07f7f9-fd5f-49da-b9cf-2ccb20128658.gif?ClientID=vimeo-core-prod&Date=1645225890&Signature=db8e00fed25897b6e055798bfbd79757dc8561a5'alt=''/>
+        </a>
+          <div className={projectStyles.text_div}>
           <h2>Description<br/><p>For this beginner app i use a Dictionary API
             <br/> The app has been created using Vanilla Javascript,Html and Css.<br/>
             Part of the weekly exercise we had at school of code</p> </h2>
             <p><bold>Tools : </bold>Html,Css,Vanilla Javascript, FetchAPI</p>
             <a  style={{color:'yellow'}}href='https://little-dictionary.netlify.app'>Dictionary Api Link</a>
           </div> 
-          <a  href='https://little-dictionary.netlify.app'>
-          <img className='dictionaryAPI' src='https://videoapi-muybridge.vimeocdn.com/animated-thumbnails/image/ac07f7f9-fd5f-49da-b9cf-2ccb20128658.gif?ClientID=vimeo-core-prod&Date=1645225890&Signature=db8e00fed25897b6e055798bfbd79757dc8561a5'alt=''/>
-        </a>
+          
           <br/>
         </div>
 
@@ -55,12 +57,12 @@ function Project() {
         <hr/>
 
 
-        <h1 className='header-project animate__animated animate__backInLeft' styles={{color:'white'}}>Search Movie/Anime/TV </h1>
-        <div className='video-description'>
+        <h1 className={projectStyles.header_project}>Search Movie/Anime/TV </h1>
+        <div className={projectStyles.video_description}>
         <a  href='https://searchapp.gatsbyjs.io/'>
-          <img className='weatherAPI' src='https://videoapi-muybridge.vimeocdn.com/animated-thumbnails/image/f70626d1-7352-4e38-b7bc-a2f3d6cbb3b7.gif?ClientID=vimeo-core-prod&Date=1645228122&Signature=f02e9ec3377b958f0ffefa93a69dfbbd6cb16d73'alt=''/>
+          <img className={projectStyles.weatherAPI} src='https://videoapi-muybridge.vimeocdn.com/animated-thumbnails/image/f70626d1-7352-4e38-b7bc-a2f3d6cbb3b7.gif?ClientID=vimeo-core-prod&Date=1645228122&Signature=f02e9ec3377b958f0ffefa93a69dfbbd6cb16d73'alt=''/>
         </a>
-          <div className='text-div'>
+          <div className={projectStyles.text_div}>
           <h2>Description<br/><p>The aim of this exercise was to get familiar with a new framework.
             <br/> For this task the bootcampers have to work on a new <br/>framework
              and Gatsby was the one i got assigned <br/>The key point of the learning that day were

@@ -2,7 +2,7 @@
 
 
 
-.home-body{
+.home_body{
     background-image: url("https://i.pinimg.com/originals/5e/6d/ef/5e6defc11d4261d6536ab177b15e025c.gif");
 background-position: center;
 background-repeat: no-repeat;
@@ -17,7 +17,7 @@ position: absolute;
 }
 
 
-.social-link{
+.social_link{
   text-align: center;
 }
 
@@ -41,7 +41,7 @@ position: absolute;
   font-family: 'Shizuru', cursive;
   text-align: center;
 }
-.par-home{
+.par_home{
   text-align: center;
   font-size: 2rem;
   font-family: 'Shizuru', cursive;
