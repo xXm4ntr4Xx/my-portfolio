@@ -1,5 +1,5 @@
 .contact_container{
-    background-image: url("https://images.pexels.com/photos/1291515/pexels-photo-1291515.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScPL5NxZFjKc0t7d_CpvPzpHGomRTqC_v4Wg&usqp=CAU");
 background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
@@ -12,11 +12,13 @@ position: absolute;
   
 }
 
-
+.linkp{
+  color: black;
+}
 
 .header_contact{
   text-align: center;
-  color: aliceblue;
+  color: black;
   margin: 10%;
 }
 @media only screen and (max-width: 1100px){

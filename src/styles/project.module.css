@@ -1,5 +1,5 @@
 .project_body{
-    background-image: url("https://cutewallpaper.org/21/dark-4k-wallpapers/4K-Black-Wallpaper-57-images.jpg");
+    background-image: url("https://images.pexels.com/photos/316466/pexels-photo-316466.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -13,7 +13,7 @@
 
 
 .header_project{
-  color: aliceblue;
+  color: black
 }
 
 .table{
@@ -31,17 +31,17 @@ hr{
   margin: 0.5%;
 }
 h2{
-  color: rgb(233, 245, 255);
+  color: black;
   font-size: auto;
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 bold{
-  color: aliceblue;
+  color: red;
   font-weight: bold;
   font-size: larger;
 }
 p{
-  color: aliceblue;
+  color: black;
 }
 
 .dictionaryAPI{

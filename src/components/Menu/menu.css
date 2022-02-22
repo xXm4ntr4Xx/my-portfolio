@@ -1,6 +1,6 @@
 #menu {
 	background:transparent;
-	color: rgb(248, 246, 246);
+	color: black;
 	height: 45px;
 	padding-left: 15px;
 	border: none;
@@ -32,7 +32,7 @@
 	float:right;
 	background-color: transparent;
 
-	background-image: url('https://i.gifer.com/CaH.gif');
+	background-image: url('https://media0.giphy.com/media/PjD8LXsw2wMyiWQn5i/giphy.gif');
   -webkit-background-clip: text;
    -webkit-text-fill-color: transparent;
 
@@ -105,7 +105,7 @@
 	#menu li {display:block;float: left;width:auto; }
 	#menu input, #menu label {position:absolute;top:0;left:0;display:block}
 	#menu input {z-index:4}
-	#menu input:checked + label {color:rgb(251, 251, 251)}
+	#menu input:checked + label {color:black}
 	#menu input:checked + label:before {content:"\00d7"}
 	#menu input:checked ~ ul {display:block}
 	

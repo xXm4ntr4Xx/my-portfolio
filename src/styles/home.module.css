@@ -1,7 +1,7 @@
 
 
 .home_body{
-background-image: url("https://i.pinimg.com/originals/5e/6d/ef/5e6defc11d4261d6536ab177b15e025c.gif");
+background-image: url("https://dictionary.cambridge.org/images/thumb/white_noun_001_19234.jpg?version=5.0.213");
 background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
@@ -15,12 +15,15 @@ position: absolute;
   text-align: center;
 }
 
-
+.gitlink{
+  margin-left: 50%;
+  margin-right: 50%;
+}
 
 .header1{
   background-image: url('https://media2.giphy.com/media/xT5LMGV2XA93OY0jJe/giphy.gif');
   -webkit-background-clip: text;
-   -webkit-text-fill-color: transparent;
+   -webkit-text-fill-color: black;
   font-size: 5rem;
   font-family: 'Shizuru', cursive;
   text-align: center;
@@ -29,6 +32,7 @@ position: absolute;
   text-align: center;
   font-size: 2rem;
   font-family: 'Shizuru', cursive;
+  color: black;
 }
 .pdfCv{
   color: aliceblue;
@@ -38,11 +42,7 @@ position: absolute;
   -webkit-background-clip: text;
    -webkit-text-fill-color: transparent;
 }
-.linkedin{
-  background-image: url('https://i.gifer.com/embedded/download/6yq9.gif');
-  -webkit-background-clip: text;
-   -webkit-text-fill-color: transparent;
-}
+
 
 @media only screen and (max-width: 1000px){
 	.header1{

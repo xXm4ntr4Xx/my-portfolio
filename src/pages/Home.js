@@ -16,8 +16,7 @@ function Home() {
       <br/>
       <br/>
       <div className={homeStyles.social_link}>
-        <a href='https://github.com/xXm4ntr4Xx'><h2 className={homeStyles.github}>Gitfolio  <i class="fab fa-github-square fa-spin fa-3x"></i></h2></a>
-        <a href='https://www.linkedin.com/in/pietro-annobil-025483180/'><h2 className={homeStyles.linkedin}>LinkedIn  <i class="fab fa-linkedin fa-spin fa-3x"></i></h2></a>
+        <a className={homeStyles.gitlink}  href='https://github.com/xXm4ntr4Xx'><h2 className={homeStyles.github}>Gitfolio  <i class="fab fa-github-square  fa-1x"></i></h2></a>
      </div>
       
     </div>

@@ -27,7 +27,7 @@ function Project() {
              project has been retreive the info from  the API and assign the different data <br/>to a variable and place the info on the page.
              <br/>Was the first time i use  Css in a complete project for create a table and add weather icon on the page.</p></h2>
             <p><bold>Tools : </bold>Html,Css,Vanilla Javascript, FetchAPI</p>
-            <a style={{color:'yellow'}}href='https://weather-application001.herokuapp.com/ '>Weather Api Link</a>
+            <a style={{color:'blue',marginLeft:'2%'}}href='https://weather-application001.herokuapp.com/ '>Weather Api Link</a>
           </div> 
           <br/>   
         </div>
@@ -46,7 +46,7 @@ function Project() {
             <br/> The app has been created using Vanilla Javascript,Html and Css.<br/>
             Part of the weekly exercise we had at school of code</p> </h2>
             <p><bold>Tools : </bold>Html,Css,Vanilla Javascript, FetchAPI</p>
-            <a  style={{color:'yellow'}}href='https://little-dictionary.netlify.app'>Dictionary Api Link</a>
+            <a  style={{color:'blue',marginLeft:'2%'}}href='https://little-dictionary.netlify.app'>Dictionary Api Link</a>
           </div> 
           
           <br/>
@@ -68,7 +68,7 @@ function Project() {
              and Gatsby was the one i got assigned <br/>The key point of the learning that day were
              <br/>the direct link to the page, the css module and the Gatsby deployment(happen on the Cloud)</p></h2>
             <p><bold>Tools : </bold>Html,Css,Vanilla Javascript, FetchAPI, Gatsby Cloud</p>
-            <a  style={{color:'yellow'}}href='https://searchapp.gatsbyjs.io/'>Search Movie/Anime/TV Api Link</a>
+            <a  style={{color:'blue',marginLeft:'2%'}}href='https://searchapp.gatsbyjs.io/'>Search Movie/Anime/TV Api Link</a>
           </div> 
           <br/>   
         </div>
