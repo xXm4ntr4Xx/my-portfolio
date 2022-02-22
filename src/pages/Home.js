@@ -18,7 +18,7 @@ function Home() {
       <div className={homeStyles.social_link}>
         <a className={homeStyles.gitlink}  href='https://github.com/xXm4ntr4Xx'><h2 className={homeStyles.github}>Gitfolio  <i class="fab fa-github-square  fa-1x"></i></h2></a>
      </div>
-      
+      <br/>
     </div>
     </>
   )

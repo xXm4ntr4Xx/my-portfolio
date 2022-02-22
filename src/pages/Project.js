@@ -15,8 +15,29 @@ function Project() {
 
       {/* 'header_project animate__animated animate__backInLeft' */}
        <div className={projectStyles.table}>
-        <h1 className={projectStyles.header_project}>City weather API</h1>
 
+       <h1 className={projectStyles.header_project}>Bootcamper Helper</h1>
+        <div className={projectStyles.video_description}>
+        <a  href='https://bootcamperknowledge.herokuapp.com/'>
+          <img className={projectStyles.weatherAPI} src='https://videoapi-muybridge.vimeocdn.com/animated-thumbnails/image/8f923854-1c63-4bf1-ac71-4cdd10fda6ed.gif?ClientID=vimeo-core-prod&Date=1645557355&Signature=d0deab5ff1f4fe70ef7b3c0bad7537b877dd2261'alt=''/>
+        </a>
+          <div className={projectStyles.text_div}>
+          <h2>Description<br/><p>Thi is the result of our national project week.
+            <br/> For this task we have to put down everything we learned during the bootcamp.<br/>
+            For the week we work as a team of 4 and every day we use to split in a pair and work in different area <br/>of the project(1 team work on front-end and 1 team work on back-end) <br/>
+             As a team we have to work with agile methodoly.Disney Ideation, use sprint, Kanban Board, Tech stack diagram<br/>
+             Have been a wonderful experience see how people with different background and different knowledge can produce in a week working togheter.<br/>
+              </p></h2>
+            <p><bold>Tools : </bold>Html,Css,Vanilla Javascript, React, Express, Heroku, Miro Board, Figma, Wireframe</p>
+            <a  style={{color:'blue',marginLeft:'2%'}}href='https://bootcamperknowledge.herokuapp.com/'>Bootcamper Helper Link</a>
+          </div>  
+        </div>
+
+        <hr/>
+        <hr/>
+        <hr/>
+
+        <h1 className={projectStyles.header_project}>City weather API</h1>
         <div className={projectStyles.video_description}>
         <a  href='https://weather-application001.herokuapp.com/ '>
           <img className={projectStyles.weatherAPI} src='https://videoapi-muybridge.vimeocdn.com/animated-thumbnails/image/b7cd41d4-884d-451f-b256-0335af874c47.gif?ClientID=vimeo-core-prod&Date=1644864340&Signature=e2e9c7e9f40cdf5d7f13c5ac3996a13d070426ba'alt=''/>
@@ -48,14 +69,11 @@ function Project() {
             <p><bold>Tools : </bold>Html,Css,Vanilla Javascript, FetchAPI</p>
             <a  style={{color:'blue',marginLeft:'2%'}}href='https://little-dictionary.netlify.app'>Dictionary Api Link</a>
           </div> 
-          
-          <br/>
         </div>
 
         <hr/>
         <hr/>
         <hr/>
-
 
         <h1 className={projectStyles.header_project}>Search Movie/Anime/TV </h1>
         <div className={projectStyles.video_description}>
@@ -69,10 +87,12 @@ function Project() {
              <br/>the direct link to the page, the css module and the Gatsby deployment(happen on the Cloud)</p></h2>
             <p><bold>Tools : </bold>Html,Css,Vanilla Javascript, FetchAPI, Gatsby Cloud</p>
             <a  style={{color:'blue',marginLeft:'2%'}}href='https://searchapp.gatsbyjs.io/'>Search Movie/Anime/TV Api Link</a>
-          </div> 
-          <br/>   
+          </div>  
         </div>
 
+        <hr/>
+        <hr/>
+        <hr/>
        </div>
     </div>  
   )
