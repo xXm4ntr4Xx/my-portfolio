@@ -1,5 +1,5 @@
 .project_body{
-    background-image: url("https://images.pexels.com/photos/316466/pexels-photo-316466.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+    background: url("https://images.pexels.com/photos/316466/pexels-photo-316466.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -13,7 +13,7 @@
 
 
 .header_project{
-  color: black
+  color: var(--base-color);
 }
 
 .table{
@@ -31,7 +31,7 @@ hr{
   margin: 0.5%;
 }
 h2{
-  color: black;
+  color: var(--base-color);
   font-size: auto;
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
@@ -41,7 +41,7 @@ bold{
   font-size: larger;
 }
 p{
-  color: black;
+  color: var(--base-color);
 }
 
 img{

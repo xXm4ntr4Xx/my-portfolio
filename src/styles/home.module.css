@@ -1,7 +1,7 @@
 
 
 .home_body{
-background-image: url("https://dictionary.cambridge.org/images/thumb/white_noun_001_19234.jpg?version=5.0.213");
+background: url("https://dictionary.cambridge.org/images/thumb/white_noun_001_19234.jpg?version=5.0.213");
 background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
@@ -21,9 +21,8 @@ position: absolute;
 }
 
 .header1{
-  background-image: url('https://media2.giphy.com/media/xT5LMGV2XA93OY0jJe/giphy.gif');
-  -webkit-background-clip: text;
-   -webkit-text-fill-color: black;
+  
+   -webkit-text-fill-color: var(--base-color);
   font-size: 5rem;
   font-family: 'Shizuru', cursive;
   text-align: center;
@@ -32,13 +31,14 @@ position: absolute;
   text-align: center;
   font-size: 2rem;
   font-family: 'Shizuru', cursive;
-  color: black;
+  color: var(--base-color)
 }
 .pdfCv{
   color: aliceblue;
 }
 .github{
-  background-image: url('https://media0.giphy.com/media/fop5eTlBCgFCE/giphy.gif');
+  background: url('https://media0.giphy.com/media/fop5eTlBCgFCE/giphy.gif');
+  
   -webkit-background-clip: text;
    -webkit-text-fill-color: transparent;
 }
@@ -52,7 +52,7 @@ position: absolute;
   }
   
   .home_body{
-    background-image: url("https://i.pinimg.com/originals/5e/6d/ef/5e6defc11d4261d6536ab177b15e025c.gif")no-repeat center center fixed;
+    background: url("https://dictionary.cambridge.org/images/thumb/white_noun_001_19234.jpg?version=5.0.213");
     -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
