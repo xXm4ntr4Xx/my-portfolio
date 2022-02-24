@@ -62,7 +62,7 @@ function Project() {
     <h1 className={projectStyles.header_project} >Dictionary API</h1>
         <div className={projectStyles.video_description}>
         <a  href='https://little-dictionary.netlify.app'>
-          <img className={projectStyles.weatherAPI} src='https://videoapi-muybridge.vimeocdn.com/animated-thumbnails/image/ac07f7f9-fd5f-49da-b9cf-2ccb20128658.gif?ClientID=vimeo-core-prod&Date=1645225890&Signature=db8e00fed25897b6e055798bfbd79757dc8561a5'alt=''/>
+          <img className={projectStyles.weatherAPI} src='https://videoapi-muybridge.vimeocdn.com/animated-thumbnails/image/bab8f1d9-947e-43c1-997b-f4ca2330702a.gif?ClientID=vimeo-core-prod&Date=1645744885&Signature=2edc80a4fbd64e914bfe01b6cf407218e78b99f5'alt=''/>
         </a>
           <div className={projectStyles.text_div}>
           <h2>Description<br/><p>For this beginner app i use a Dictionary API
