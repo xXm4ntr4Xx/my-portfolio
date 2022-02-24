@@ -81,7 +81,7 @@ function Project() {
         <h1 className={projectStyles.header_project}>Search Movie/Anime/TV </h1>
         <div className={projectStyles.video_description}>
         <a  href='https://searchapp.gatsbyjs.io/'>
-          <img className={projectStyles.weatherAPI} src='https://videoapi-muybridge.vimeocdn.com/animated-thumbnails/image/f70626d1-7352-4e38-b7bc-a2f3d6cbb3b7.gif?ClientID=vimeo-core-prod&Date=1645228122&Signature=f02e9ec3377b958f0ffefa93a69dfbbd6cb16d73'alt=''/>
+          <img className={projectStyles.weatherAPI} src='https://videoapi-muybridge.vimeocdn.com/animated-thumbnails/image/153ffda2-60b7-4762-ac55-a9c0d3351b3d.gif?ClientID=vimeo-core-prod&Date=1645746953&Signature=7b5fc7a8ea2ed1e16ea1f276c772150e8c714b64'alt=''/>
         </a>
           <div className={projectStyles.text_div}>
           <h2>Description<br/><p>The aim of this exercise was to get familiar with a new framework.
