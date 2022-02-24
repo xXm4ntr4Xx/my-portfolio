@@ -5,8 +5,6 @@ import Menu from '../components/Menu/menu';
 
 
 function About() {
-  
-
 
   return (  
       <div className={contactStyles.contact_container}>
