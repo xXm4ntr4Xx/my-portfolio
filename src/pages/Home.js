@@ -12,7 +12,7 @@ function Home() {
       <Menu />
          <h1 className={homeStyles.header1}> Pietro Annobil </h1><br/>
           <p className={homeStyles.par_home}>Im a software developer based in london that love work with API</p>
-          <p className={homeStyles.par_home}>My favourite tools are React and Node.js</p>
+          <p className={homeStyles.par_home}>My favourite tools are Javascript and Node.js</p>
       <br/>
       <br/>
       <div className={homeStyles.social_link}>

@@ -13,11 +13,15 @@ position: absolute;
 
 .social_link{
   text-align: center;
+  width: 10%;
+  margin-left: 50%;
+  margin-right: 50%;
 }
 
 .gitlink{
   margin-left: 50%;
   margin-right: 50%;
+  width: 10px;
 }
 
 .header1{
@@ -29,24 +33,19 @@ position: absolute;
 }
 .par_home{
   text-align: center;
-  font-size: 2rem;
+  font-size: 3rem;
   font-family: 'Shizuru', cursive;
   color: var(--base-color)
 }
 .pdfCv{
   color: aliceblue;
 }
-.github{
-  background: url('https://media0.giphy.com/media/fop5eTlBCgFCE/giphy.gif');
-  
-  -webkit-background-clip: text;
-   -webkit-text-fill-color: transparent;
-}
+
 
 
 @media only screen and (max-width: 1000px){
 	.header1{
-    font-size: 8vw;
+    font-size: 4rem;
     text-align: center;
     word-wrap: break-word;
   }
