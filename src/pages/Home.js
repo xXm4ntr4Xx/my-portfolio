@@ -7,7 +7,6 @@ function Home() {
 
   return (   
     <>
-    
     <div className={homeStyles.home_body}>
       <Menu />
          <h1 className={homeStyles.header1}> Pietro Annobil </h1><br/>
