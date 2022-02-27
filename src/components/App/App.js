@@ -1,4 +1,4 @@
-import React from "react";
+import {useState} from "react";
 import {
   BrowserRouter ,
   Routes,
@@ -9,6 +9,7 @@ import Contact from '../../pages/Contact';
 import Project from "../../pages/Project";
 
 export default function App() {
+
   return (
     <div className="app"> 
       <BrowserRouter>

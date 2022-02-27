@@ -11,18 +11,12 @@ position: absolute;
 }
 
 
-.social_link{
-  text-align: center;
-  width: 10%;
-  margin-left: 50%;
-  margin-right: 50%;
+
+.social_link{ 
+  width: 10%; 
 }
 
-.gitlink{
-  margin-left: 50%;
-  margin-right: 50%;
-  width: 10px;
-}
+
 
 .header1{
   
@@ -31,6 +25,8 @@ position: absolute;
   font-family: 'Shizuru', cursive;
   text-align: center;
 }
+
+
 .par_home{
   text-align: center;
   font-size: 3rem;
@@ -59,5 +55,9 @@ position: absolute;
   height: auto;
   width: fit-content;
   overflow-x: hidden;
+    }
+    .social_link{ 
+      text-align: center;
+      width: 40%; 
     }
 }

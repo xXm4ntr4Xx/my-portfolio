@@ -1,4 +1,4 @@
-import React from 'react'
+
 import homeStyles from '../styles/home.module.css';
 import Menu from '../components/Menu/menu';
 

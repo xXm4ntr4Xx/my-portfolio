@@ -1,5 +1,6 @@
 :root {
   --base-color: rgb(0, 0, 0);
+  --whitebase-color: rgb(255, 255, 255);
 }
 *{
   margin: 0px;
