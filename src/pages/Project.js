@@ -88,7 +88,7 @@ function Project() {
             <br/> For this task the bootcampers have to work on a new <br/>framework
              and Gatsby was the one i got assigned <br/>The key point of the learning that day were
              <br/>the direct link to the page, the css module and the Gatsby deployment(happen on the Cloud)</p></h2>
-            <p><bold>Tools : </bold>Html,Css,Vanilla Javascript, FetchAPI, Gatsby Cloud</p>
+            <p><bold>Tools : </bold>Html,Css,React, FetchAPI, Gatsby Cloud</p>
             <a  style={{color:'green',marginLeft:'2%'}}href='https://github.com/xXm4ntr4Xx/search-app'> Source Code</a>
             <a  style={{color:'blue',marginLeft:'2%'}}href='https://searchapp.gatsbyjs.io/'>Search Movie/Anime/TV Api Link</a>
             
