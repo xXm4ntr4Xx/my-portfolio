@@ -1,5 +1,5 @@
 .project_body{
-    background: url("https://images.unsplash.com/photo-1615800098779-1be32e60cca3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=710&q=80");
+    background: url("https://images.pexels.com/photos/3714898/pexels-photo-3714898.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -34,6 +34,7 @@ h2{
   color: var(--base-color);
   font-size: auto;
   font-family: Georgia, 'Times New Roman', Times, serif;
+  color: whitesmoke;
 }
 bold{
   color: red;
@@ -41,11 +42,15 @@ bold{
   font-size: larger;
 }
 p{
-  color: var(--base-color);
+  color: var(--whitebase-color);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: 600;
+  font-size: 20px;
 }
 
 img{
-  width: 100%;
+  width: 700px;
+  height: 400px;
 }
 
 @media only screen and (max-width: 1000px) {

@@ -59,6 +59,25 @@ function Project() {
     <hr/>
     <hr/>
 
+        <h1 className={projectStyles.header_project}>Html Template Example </h1>
+        <div className={projectStyles.video_description}>
+        <a  href='https://html-portfolio-template-test.netlify.app'>
+          <img className={projectStyles.weatherAPI} src='https://videoapi-muybridge.vimeocdn.com/animated-thumbnails/image/ecaf745b-768d-4bab-8580-3248b363cc0b.gif?ClientID=vimeo-core-prod&Date=1646350971&Signature=b8c1b40f67c7b919080ea2602c0690affeeeb2c3'alt=''/>
+        </a>
+          <div className={projectStyles.text_div}>
+          <h2>Description<br/><p>With this exercise i start to watch around for simple template for create portfolio on the internet.<br/>
+            looking on the internet i found Bootstrap. A website that allow you to create<br/> website template very quickly, as normal bootsrap framework is based on class</p></h2>
+            <p><bold>Tools : </bold>Html,Css,React,Bootstrap tools, Netlify</p>
+            <a  style={{color:'green',marginLeft:'2%'}}href='https://github.com/xXm4ntr4Xx/html-portfolio-new'> Source Code</a>
+            <a  style={{color:'blue',marginLeft:'2%'}}href='https://html-portfolio-template-test.netlify.app'>Html Template Example Link</a>
+            
+          </div>  
+        </div>
+
+    <hr/>
+    <hr/>
+    <hr/>
+
     <h1 className={projectStyles.header_project} >Dictionary API</h1>
         <div className={projectStyles.video_description}>
         <a  href='https://little-dictionary.netlify.app'>

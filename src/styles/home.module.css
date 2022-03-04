@@ -1,7 +1,7 @@
 
 
 .home_body{
-background: url("https://images.unsplash.com/photo-1615800098779-1be32e60cca3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=710&q=80");
+background: url("https://images.pexels.com/photos/998646/pexels-photo-998646.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
 background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
@@ -20,9 +20,10 @@ position: absolute;
 .header1{
   
    -webkit-text-fill-color: var(--base-color);
-  font-size: 5rem;
+  font-size: 4rem;
   font-family: 'Shizuru', cursive;
-  text-align: center;
+  animation: 'data-mdb-animation-start="onHover';
+  
 }
 
 .par_home{
@@ -39,13 +40,19 @@ position: absolute;
 
 @media only screen and (max-width: 1000px){
 	.header1{
-    font-size: 4rem;
+    font-size: 3rem;
     text-align: center;
     word-wrap: break-word;
   }
+  .par_home{
+    font-size: 20px;
+    margin: 10%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: var(--whitebase-color)
+  }
   
   .home_body{
-    background: url("https://dictionary.cambridge.org/images/thumb/white_noun_001_19234.jpg?version=5.0.213");
+    background: url("https://images.pexels.com/photos/998646/pexels-photo-998646.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
     -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -60,5 +67,6 @@ position: absolute;
       position: absolute;
       bottom: 0px;
       margin-left: 30%;
+      color: wheat;
     }
 }
