@@ -9,7 +9,7 @@ function Home() {
     <>
     <div className={homeStyles.home_body}>
       <Menu />
-         <h1 className={homeStyles.header1}> Hello, I'm Pietro Annobil </h1><br/>
+         <h1 className={homeStyles.header1}>Pietro Annobil </h1><br/>
           <p className={homeStyles.par_home}>A software developer based in london that  want to became part of tech industry</p>
       <br/>
       <br/>
