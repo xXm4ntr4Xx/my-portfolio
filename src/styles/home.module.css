@@ -1,7 +1,7 @@
 
 
 .home_body{
-background: url("https://images.pexels.com/photos/998646/pexels-photo-998646.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+background: url("https://cdn.pixabay.com/photo/2017/10/30/19/24/whiteboard-2903269__480.png");
 background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
@@ -149,7 +149,7 @@ position: absolute;
   }
   
   .home_body{
-    background: url("https://images.pexels.com/photos/998646/pexels-photo-998646.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+    background: url("https://cdn.pixabay.com/photo/2017/10/30/19/24/whiteboard-2903269__480.png");
     -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;

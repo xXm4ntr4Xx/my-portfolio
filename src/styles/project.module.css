@@ -1,5 +1,5 @@
 .project_body{
-    background: url("https://images.pexels.com/photos/3714898/pexels-photo-3714898.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+    background: url("https://cdn.pixabay.com/photo/2017/04/13/19/29/canvas-2228506_1280.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -34,7 +34,7 @@ h2{
   color: var(--base-color);
   font-size: auto;
   font-family: Georgia, 'Times New Roman', Times, serif;
-  color: whitesmoke;
+  color: rgb(15, 14, 14);
 }
 bold{
   color: red;
@@ -42,7 +42,7 @@ bold{
   font-size: larger;
 }
 p{
-  color: var(--whitebase-color);
+  color: var(--base-color);
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-weight: 600;
   font-size: 20px;
