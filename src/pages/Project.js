@@ -44,7 +44,7 @@ function Project() {
           <img className={projectStyles.weatherAPI} src='https://videoapi-muybridge.vimeocdn.com/animated-thumbnails/image/b7cd41d4-884d-451f-b256-0335af874c47.gif?ClientID=vimeo-core-prod&Date=1644864340&Signature=e2e9c7e9f40cdf5d7f13c5ac3996a13d070426ba'alt=''/>
         </a>
           <div className={projectStyles.text_div}>
-          <h2>Description<br/><p>First Project of School of Code where i create a City Info using e weather API.
+          <h2>Description<br/><p>First Project of School of Code where i create a City Info using a weather API.
             <br/> The app has been created using Vanilla Javascript,Html and Css. The Most challenge <br/>part of this
              project has been retreive the info from  the API and assign the different data <br/>to a variable and place the info on the page.
              <br/>Was the first time i use  Css in a complete project for create a table and add weather icon on the page.</p></h2>
