@@ -40,7 +40,7 @@ function Project() {
 
         <h1 className={projectStyles.header_project}>City weather API</h1>
         <div className={projectStyles.video_description}>
-        <a  href='https://weather-application001.herokuapp.com/ '>
+        <a  href='https://weather-application001.herokuapp.com/'>
           <img className={projectStyles.weatherAPI} src='https://videoapi-muybridge.vimeocdn.com/animated-thumbnails/image/b7cd41d4-884d-451f-b256-0335af874c47.gif?ClientID=vimeo-core-prod&Date=1644864340&Signature=e2e9c7e9f40cdf5d7f13c5ac3996a13d070426ba'alt=''/>
         </a>
           <div className={projectStyles.text_div}>
@@ -51,8 +51,7 @@ function Project() {
             <p><bold>Tools : </bold>Html,Css,Vanilla Javascript, FetchAPI</p>
             <a  style={{color:'green',marginLeft:'2%'}}href='https://github.com/xXm4ntr4Xx/City-weather-Api'> Source Code</a>
             <a style={{color:'blue',marginLeft:'2%'}}href='https://weather-application001.herokuapp.com/ '>Weather Api Link</a>
-          </div> 
-          <br/>   
+          </div>  
         </div>
 
     <hr/>
