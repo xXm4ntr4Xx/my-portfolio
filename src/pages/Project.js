@@ -22,7 +22,7 @@ function Project() {
           <img className={projectStyles.weatherAPI} src='https://videoapi-muybridge.vimeocdn.com/animated-thumbnails/image/8f923854-1c63-4bf1-ac71-4cdd10fda6ed.gif?ClientID=vimeo-core-prod&Date=1645557355&Signature=d0deab5ff1f4fe70ef7b3c0bad7537b877dd2261'alt=''/>
         </a>
           <div className={projectStyles.text_div}>
-          <h2>Description<br/><p>This is the result of our national project week.
+          <h2>Description<br/><p>This is the result of our project week.
             <br/> For this task we have to put down everything we learned during the bootcamp.<br/>
             For the week we work as a team of 4 and every day we use to split in a pair and work in different areas <br/>of the project(1 team worked on front-end and 1 team worked on back-end) <br/>
              As a team we have to work with agile methodoly.Disney Ideation, use sprint, Kanban Board, Tech stack diagram<br/>
@@ -104,7 +104,7 @@ function Project() {
           <div className={projectStyles.text_div}>
           <h2>Description<br/><p>The aim of this exercise was to get familiar with a new framework.
             <br/> For this task the bootcampers have to work on a new <br/>framework
-             and Gatsby was the one i got assigned <br/>The key point of the learning that day were
+             and Gatsby was the one we got assigned <br/>The key point of the learning that day were
              <br/>the direct link to the page, the css module and the Gatsby deployment(happen on the Cloud)</p></h2>
             <p><bold>Tools : </bold>Html,Css,React, FetchAPI, Gatsby Cloud</p>
             <a  style={{color:'green',marginLeft:'2%'}}href='https://github.com/xXm4ntr4Xx/search-app'> Source Code</a>
