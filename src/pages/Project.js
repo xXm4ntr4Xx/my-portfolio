@@ -4,8 +4,6 @@ import Menu from '../components/Menu/menu';
 
 
 
-
-
 function Project() {
   
   
@@ -65,10 +63,10 @@ function Project() {
         </a>
           <div className={projectStyles.text_div}>
           <h2>Description<br/><p>With this exercise i start to watch around for simple template for create portfolio on the internet.<br/>
-            looking on the internet i found Bootstrap. A website that allow you to create<br/> website template very quickly, as normal bootsrap framework is based on class</p></h2>
-            <p><bold>Tools : </bold>Html,Bootstrap tools, Netlify</p>
+          BootsrapMade is a A website that allow you to create<br/> website template very quickly, as normal bootsrap framework is based on class</p></h2>
+            <p><bold>Tools : </bold>Html,Bootstrap tools, Netlify, Php</p>
             <a  style={{color:'green',marginLeft:'2%'}}href='https://github.com/xXm4ntr4Xx/html-portfolio-new'> Source Code</a>
-            <a  style={{color:'blue',marginLeft:'2%'}}href='https://html-portfolio-template-test.netlify.app'>Html Template Example Link</a>
+            <a  style={{color:'blue',marginLeft:'2%'}}href='https://pietroannoibl-portfolio.netlify.app/'>Html Template Example Link</a>
             
           </div>  
         </div>
